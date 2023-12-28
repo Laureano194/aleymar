@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 600px;
+    /* height: 600px; */
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -449,6 +449,23 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 4px;
 }
 
+.galeria-heading{
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+}
+.galeria-heading h2{
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "authentic-signature","Sacramento", Arial, serif;
+}
+.galeria-heading span{
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
   #fh5co-evento .event-wrap {
@@ -460,7 +477,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap h3,
 #fh5co-evento .event-wrap h3 {
-  font-size: 55px;
+  font-size: 5vh;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
@@ -475,7 +492,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.8);
 }
 #fh5co-evento .event-wrap span{
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: lighter;
 }
 #fh5co-counter .event-wrap i,
@@ -881,8 +898,11 @@ form label {
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
 .fh5co-cover .display-tc {
-  display: table-cell !important;
-  vertical-align: middle;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  /* display: table-cell !important;
+  vertical-align: middle; */
 }
 
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
@@ -1317,6 +1337,7 @@ form label {
   font-family: "authentic-signature", "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
+  .galeria-heading h2,
   .fh5co-heading h2 {
     font-size: 60px;
     font-weight:500;
@@ -2198,22 +2219,7 @@ footer{
   margin-bottom: 1em;
 }
 
-.galeria-heading{
-  margin-top: 10vh;
-  margin-bottom: 3vh;
-}
-.galeria-heading h2{
-  font-size: 90px;
-  font-weight: 500;
-  font-family: "authentic-signature","Sacramento", Arial, serif;
-}
-.galeria-heading span{
-  color: rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-  font-size: 15px;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
+
 
 .icon-lista {
   margin-right: 10px;
@@ -2221,6 +2227,7 @@ footer{
 .event-card-list{
   display: inline-block;
   list-style-type: none;
+  padding-left: 1.5rem;
 }
 
 .event-card-list li span{
@@ -2354,12 +2361,12 @@ footer{
   font-size: 10em !important;
   font-weight:500;
   line-height: 0.8em !important;
-  margin-bottom: 0.5em !important;
+  margin-bottom: 0.2em !important;
   color: #cf9457 !important;
 }
 @media (max-width: 1000px) {
   .name-header {
-    font-size: 60px !important;
+    font-size: 8rem !important;
   }
 }
 .salon-fiesta img{
