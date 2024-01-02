@@ -1540,6 +1540,12 @@ form label {
   text-transform: uppercase;
   font-weight: 400;
 }
+
+video{
+  width: 80%;
+  max-width: 1000px;
+}
+
 #fh5co-started .btn-purple {
   height: 54px;
   border: none !important;
