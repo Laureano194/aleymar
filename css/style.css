@@ -413,6 +413,11 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 2px;
   font-weight: 600;
 }
+
+#fh5co-evento .fh5co-heading span{
+  color: #976c3e;
+}
+
 #fh5co-counter .overlay,
 #fh5co-evento .overlay {
   position: absolute;
@@ -420,7 +425,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -439,7 +444,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-evento .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
   /* background: rgba(255, 255, 255, 0.1); */
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   padding: 5rem 2rem;
   width: 100%;
   float: left;
@@ -1493,7 +1498,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
@@ -1502,29 +1507,28 @@ form label {
   color: rgba(255, 255, 255, 0.5);
 }
 #fh5co-started .form-control {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.7);
   border: none !important;
-  color: #fff;
+  /* color: #976c3e !important; */
   font-size: 16px !important;
+  font-weight: bold;
   width: 100%;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#fh5co-started .form-control::-webkit-input-placeholder {
-  color: #fff;
+ #fh5co-started .form-control::-webkit-input-placeholder {
+  color: #5e5a55 !important;
 }
 #fh5co-started .form-control:-moz-placeholder {
-  /* Firefox 18- */
-  color: #fff;
+  color: #5e5a55 !important;
 }
 #fh5co-started .form-control::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #fff;
+  color: #5e5a55 !important;
 }
 #fh5co-started .form-control:-ms-input-placeholder {
-  color: #fff;
-}
+  color: #5e5a55 !important;
+} 
 #fh5co-started .form-control:focus {
   background: rgba(255, 255, 255, 0.3);
 }
@@ -2417,13 +2421,11 @@ header::after{
 } */
 
 #fh5co-evento{
-  /* background-image:url(../images/img_bg_3.jpg); */
-  /* background-color: #0A0A0A; */
-  background-image: url('../images/41845.jpg');
+  background-image: url('../images/elemento-diseno-sombra-hojas.jpg');
+  background-size:1000px !important;  
   background-repeat: repeat;
   min-height: 100vh;
-  /* background-color: #abebc6;
-  background-position:50% 70%; */
+  background-position:50% 70%;
 }
 @media (min-width: 1000px) {
   #fh5co-evento{

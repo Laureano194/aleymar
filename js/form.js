@@ -19,7 +19,8 @@ const cleanForm = form => {
 }
 
 const textWhatsapp = data => {
-    let urlWhatsapp = "https://api.whatsapp.com/send?phone=5492915049023&text=";
+    let phone = "2355645263"
+    let urlWhatsapp = "https://api.whatsapp.com/send?phone=" + phone + "&text=";
     let stringNombre = `%2ANombre:%2A ${data.nombre}.`
     stringNombre = stringNombre.split(' ')
     stringNombre = stringNombre.join('%20')
